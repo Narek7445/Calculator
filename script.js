@@ -15,7 +15,7 @@ function calculate() {
         document.getElementById('display').value = result; 
         
         if(result === Infinity) {
-            alert("The universe just exploded.");
+            document.getElementById('display').value = 'Infinity';
         }
     } catch (e) {
         document.getElementById('display').value = "Error";
